@@ -382,7 +382,7 @@ a {
 
 /** Site footer */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px dashed $brand-color;
     padding: $spacing-unit 0;
 }
 
