@@ -65,3 +65,15 @@
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+.type-csharp  {
+    .highlight {
+        .k { color: #00F }
+        .kt { color: #00F }
+        .nf { color: #000; font-weight: normal }
+        .nc { color: #2B91AF }
+        .nn { color: #000 }
+        .s { color: #A31515 }
+        .sc { color: #A31515 }
+    }
+}
