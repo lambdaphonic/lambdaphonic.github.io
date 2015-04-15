@@ -4,7 +4,7 @@ email: info@lambdaphonic.de
 description: Code === Music
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lambdaphonic.de" # the base hostname & protocol for your site
-twitter_username: magicmonty
+twitter_username: lambdaphonic
 github_username:  lambdaphonic
 
 # Build settings
