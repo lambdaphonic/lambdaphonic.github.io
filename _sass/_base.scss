@@ -98,8 +98,9 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #2aa198;
     text-decoration: none;
+    text-shadow: 0 0 5px rgba(238, 232, 213, 0.5);
 
     > :visited {
         color: darken($brand-color, 15%);
@@ -251,7 +252,7 @@ header {
     h1, h2, h3, h4, h5, h6 {
         font-weight: normal;
         font-family: $base-font-family;
-        color: $brand-color;
+        color: #268bd2;
         letter-spacing: -0.03em;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
         0 0 5px rgba(181, 232, 83, 0.1),
@@ -348,12 +349,6 @@ hr {
     }
 }
 
-/* Links a, a:hover, a:visited */
-a {
-    color: #2aa198;
-    text-shadow: 0 0 5px rgba(238, 232, 213, 0.5);
-}
-
 /* Clearfix */
 .cf {
     > :before, > :after {
@@ -445,4 +440,10 @@ a {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+span.lambdaphonic {
+  position: relative;
+  display: inline-block;
+  top: 2px;
 }
