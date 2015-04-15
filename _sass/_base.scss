@@ -117,9 +117,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: #aaa;
+    color: $grey-color-light;
     padding-left: 10px;
-    border-left: 1px dotted #666;
+    border-left: 1px dotted $grey-color;
 
     > :last-child {
         margin-bottom: 0;
@@ -137,7 +137,7 @@ code {
     border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 10px;
     font-size: 14px;
-    color: #b5e853;
+    color: $brand-color;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -219,7 +219,7 @@ pre {
 header {
     background: rgba(0, 0, 0, 0.1);
     width: 100%;
-    border-bottom: 1px dashed #b5e853;
+    border-bottom: 1px dashed $brand-color;
     padding: 20px 0;
     margin: 0 0 40px 0;
     
@@ -320,7 +320,7 @@ hr {
     height: 0;
     border: 0;
     border-bottom: 1px dashed $brand-color;
-    color: #b5e853;
+    color: $brand-color;
 }
 
 /* Buttons */
@@ -360,7 +360,7 @@ hr {
 
 /* Links a, a:hover, a:visited */
 a {
-    color: #63c0f5;
+    color: #2aa198;
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
