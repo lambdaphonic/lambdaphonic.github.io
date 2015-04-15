@@ -1,7 +1,7 @@
 # Site settings
 title: λ phonic
 email: info@lambdaphonic.de
-description: Code === Music
+description: Code is Music
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lambdaphonic.de" # the base hostname & protocol for your site
 twitter_username: lambdaphonic
