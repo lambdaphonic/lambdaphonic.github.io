@@ -1,6 +1,5 @@
 # Site settings
 title: λ phonic
-subtitle: Music by code
 email: info@lambdaphonic.de
 description: > # this means to ignore newlines until "baseurl:"
   Music by code.
