@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background: $background-color url("../images/bkg.png") 0 0;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     margin: 0;
     padding: 0;
@@ -229,7 +229,7 @@ header {
         margin: 0 0 0 -40px;
         font-weight: bold;
         font-family: $base-font-family;
-        color: #b5e853;
+        color: $brand-color;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
         0 0 5px rgba(181, 232, 83, 0.1),
         0 0 10px rgba(181, 232, 83, 0.1);
@@ -245,7 +245,7 @@ header {
     h2 {
         font-size: 18px;
         font-weight: 300;
-        color: #666;
+        color: $grey-color;
     }
 }
 
@@ -256,7 +256,7 @@ header {
     h1, h2, h3, h4, h5, h6 {
         font-weight: normal;
         font-family: $base-font-family;
-        color: #b5e853;
+        color: $brand-color;
         letter-spacing: -0.03em;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
         0 0 5px rgba(181, 232, 83, 0.1),
@@ -276,7 +276,7 @@ header {
     h6 {
         font-size: 12px;
         text-transform: uppercase;
-        color: #999;
+        color: $grey-color-light;
         margin: 0 0 5px 0;
     }
 }
@@ -293,7 +293,7 @@ ul {
             content: ">>";
             font-family: $base-font-family;
             font-size: 13px;
-            color: #b5e853;
+            color: $brand-color;
             margin-left: -37px;
             margin-right: 21px;
             line-height: 16px;
@@ -308,7 +308,7 @@ table {
 
 th {
     text-align: left;
-    border-bottom: 1px dashed #b5e853;
+    border-bottom: 1px dashed $brand-color;
     padding: 5px 10px;
 }
 
@@ -319,7 +319,7 @@ td {
 hr {
     height: 0;
     border: 0;
-    border-bottom: 1px dashed #b5e853;
+    border-bottom: 1px dashed $brand-color;
     color: #b5e853;
 }
 
