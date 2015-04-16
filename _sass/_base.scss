@@ -100,7 +100,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #2aa198;
     text-decoration: none;
-    text-shadow: 0 0 5px rgba(238, 232, 213, 0.5);
 
     > :visited {
         color: darken($brand-color, 15%);
@@ -231,9 +230,6 @@ header {
         font-weight: bold;
         font-family: $base-font-family;
         color: $brand-color;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-        0 0 5px rgba(181, 232, 83, 0.1),
-        0 0 10px rgba(181, 232, 83, 0.1);
         letter-spacing: -1px;
         -webkit-font-smoothing: antialiased;
     }
@@ -254,9 +250,6 @@ header {
         font-family: $base-font-family;
         color: #268bd2;
         letter-spacing: -0.03em;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-        0 0 5px rgba(181, 232, 83, 0.1),
-        0 0 10px rgba(181, 232, 83, 0.1);
     }
 
     h1 { font-size: 30px; }
@@ -333,7 +326,6 @@ hr {
     font-weight: bold;
     font-size: 13px;
     text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
     > :hover {
