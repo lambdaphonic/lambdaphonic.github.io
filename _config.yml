@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lambdaphonic.de" # the base hostname & protocol for your site
 twitter_username: lambdaphonic
 github_username:  lambdaphonic
+soundcloud_username: lambdaphonic
 
 # Build settings
 markdown: kramdown
