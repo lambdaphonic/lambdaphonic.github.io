@@ -14,7 +14,23 @@
   font-style: normal;
 }
 
-
+// Solarized Dark colors
+$base03:  #002b36;
+$base02:  #073642;
+$base01:  #586e75;
+$base00:  #657b83;
+$base0:   #839496;
+$base1:   #93a1a1;
+$base2:   #eee8d5;
+$base3:   #fdf6e3;
+$yellow:  #b58900;
+$orange:  #cb4b16;
+$red:     #dc322f;
+$magenta: #d33682;
+$violet:  #6c71c4;
+$blue:    #268bd2;
+$cyan:    #2aa198;
+$green:   #859900;
 
 // Our variables
 $base-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -25,21 +41,19 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #859900;
-$background-color: #002b36;
-$brand-color:      #859900;
+$text-color:       $green;
+$background-color: $base03;
+$brand-color:      $green;
 
-$grey-color:       #839496;
-$grey-color-light: #93a1a1;
-$grey-color-dark:  #586e75;
+$grey-color:       $base0;
+$grey-color-light: $base1;
+$grey-color-dark:  $base01;
 
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
