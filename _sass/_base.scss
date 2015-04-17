@@ -133,14 +133,13 @@ blockquote {
  */
 pre,
 code {
-    background: rgba(0, 0, 0, 0.9);
     border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 10px;
     font-size: 14px;
     color: $brand-color;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     text-wrap: normal;
     overflow: auto;
     overflow-y: hidden;
@@ -152,7 +151,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     > code {
         border: 0;
