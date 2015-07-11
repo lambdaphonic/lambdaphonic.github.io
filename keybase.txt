@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/magicmonty
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lambdaphonic.de
+  * I am magicmonty (https://keybase.io/magicmonty) on keybase.
+  * I have a public key with fingerprint C309 30F2 B226 A4B9 36D2  7453 53F7 50D2 1218 4323
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c30930f2b226a4b936d2745353f750d212184323",
+            "host": "keybase.io",
+            "key_id": "53f750d212184323",
+            "kid": "01116f65e36eaa69850f14b4890557bed64a6288ca84f413e1966d7f3dce18c461d30a",
+            "uid": "141d54b944040337f68da98b63151b00",
+            "username": "magicmonty"
+        },
+        "service": {
+            "hostname": "lambdaphonic.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1436620407,
+    "expire_in": 157680000,
+    "prev": "9e2d40b1022c87ab1a7b6feea6a4cc0090c9d806b3245ffe85dcf7bcc83e3926",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.20
+Comment: https://keybase.io/crypto
+
+yMEjAnicbZI7a1RBFMevjwRcEI2FpB4rYYnzvjNrKS42ghBsbJZ5nNkdkr33evfu
+rktMKQg2FjY2ioVY+hkSLBQ7sZV8AxFE0jqzxM5phjnnf37nMefT5QtFb2v39MG3
+a9t3bpz7enR3Xjx8d315gGztV2hwgPZgfYVYjaFt2lh1aIAcw5rhQC2l0nCrmfS0
+5IIJFkqBPSWUKM4oQ300qWc5ImGsmcFOrJMtPUbRJ+t/9HtrByaEyCAFMAnGSK0E
+DoRbrjQWorTgJTeSKuWM4oETBkRL6cvAvAOiHJfEM2wSbr7GEU68SHVyjjlmrAxS
+eaOVlYwIYjHOwhm0lZlCUk/NOLppXXUrdNhHyb6IDvIQci9nmn0ztd40k7qKbsdD
+AjRt3dWu3k/OSdc1gxzbrZosXoIdnWFGNlY+zTIFLKCdxbpCA5KUrouZSziTkqYi
+yz6CJ01sYRSzQpRS4XRyGlgkpAbqObYEU+pUaSwxpZUBwKT/cA5jjZ32CkvLKBch
+gBLehdI6pxgwTSXKjT2uajTQqUwzTshZHFemm7eADo+HF4utXrG5cT4vQ9G7dPXf
+ivy5Ury5zZ69OPl4/GV3ePrh5mb1avv592nx9v69k6fL30efb4lHw5c/3v/8NX69
+8Rd4FrtF
+=uclT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/magicmonty
+
+==================================================================
