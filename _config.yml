@@ -10,3 +10,20 @@ soundcloud_username: lambdaphonic
 
 # Build settings
 markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .vscode
+  - .sass-cache
+lsi: false
+permalink: /posts/:title/
+author:
+  name: lambdaphonic
+  email: info@lambdaphonic.de
+defaults:
+  - scope:
+      path: ""
+    values:
+      excerpt_separator: <!-- more -->
+      layout: post
+      author: lambdaphonic
