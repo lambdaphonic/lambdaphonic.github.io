@@ -15,6 +15,8 @@ exclude:
   - Gemfile.lock
   - .vscode
   - .sass-cache
+  - vendor
+  - .vendor
 lsi: false
 permalink: /posts/:title/
 author:
